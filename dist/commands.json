@@ -181,6 +181,21 @@
 		"command": "cd $workspace && gradle build --refresh-dependencies"
 	},
 	{
+		"extension": "gradle",
+		"name": "Gradle Build",
+		"command": "cd $workspace && gradle build"
+	},
+	{
+		"extension": "gradle",
+		"name": "Gradle assembleDebug",
+		"command": "cd $workspace && gradle assembleDebug"
+	},
+	{
+		"extension": "gradle",
+		"name": "Gradle Sync",
+		"command": "cd $workspace && gradle build --refresh-dependencies"
+	},
+	{
 		"extension": "kt",
 		"name": "Gradle Sync",
 		"command": "cd $workspace && gradle build --refresh-dependencies"
