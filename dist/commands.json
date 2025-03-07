@@ -1,356 +1,357 @@
 [
-	{
-		"extension": "mjs",
-		"name": "Node Module",
-		"command": "clear && node '$uri'"
-	},
-	{
-		"extension": "vb",
-		"name": "Visual Basic",
-		"command": "clear && vbc /nologo '$name' && '$dir$nameNoExt'"
-	},
-	{
-		"extension": "vbs",
-		"name": "Visual Basics",
-		"command": "clear && cscript '$uri'"
-	},
-	{
-		"extension": "scala",
-		"name": "Scala",
-		"command": "clear && scala '$uri'"
-	},
-	{
-		"extension": "jl",
-		"name": "Julia",
-		"command": "clear && julia '$uri'"
-	},
-	{
-		"extension": "cr",
-		"name": "Crystal",
-		"command": "clear && crystal '$uri'"
-	},
-	{
-		"extension": "ml",
-		"command": "clear && ocaml '$uri'"
-	},
-	{
-		"extension": "exs",
-		"name": "Elixir",
-		"command": "clear && elixir '$uri'"
-	},
-	{
-		"extension": "hx",
-		"command": "clear && haxe --cwd '$dirNoSlash' --run '$nameNoExt'"
-	},
-	{
-		"extension": "rkt",
-		"command": "clear && racket '$uri'"
-	},
-	{
-		"extension": "scm",
-		"command": "clear && csi -script '$uri'"
-	},
-	{
-		"extension": "ahk",
-		"command": "clear && autohotkey '$uri'"
-	},
-	{
-		"extension": "au3",
-		"command": "clear && autoit3 '$uri'"
-	},
-	{
-		"extension": "ipy",
-		"name": "Ipython",
-		"command": "clear && ipython '$uri'"
-	},
-	{
-		"extension": "kts",
-		"name": "Kotlin",
-		"command": "clear && kotlinc -script '$uri'"
-	},
-	{
-		"extension": "kt",
-		"name": "Gradle Run",
-		"command": "clear && cd $workspace && gradle run"
-	},
-	{
-		"extension": "kt",
-		"name": "Gradle Build",
-		"command": "clear && cd $workspace && gradle build"
-	},
-	{
-		"extension": "dart",
-		"name": "Dart",
-		"command": "clear && dart '$uri'"
-	},
-	{
-		"extension": "pas",
-		"command": "clear && fpc '$name' && '$dir$nameNoExt'"
-	},
-	{
-		"extension": "pp",
-		"command": "clear && fpc '$name' && '$dir$nameNoExt'"
-	},
-	{
-		"extension": "d",
-		"command": "clear && dmd '$name' && '$dir$nameNoExt'"
-	},
-	{
-		"extension": "hs",
-		"name": "Haskell",
-		"command": "clear && runhaskell '$uri'"
-	},
-	{
-		"extension": "nim",
-		"name": "Nim",
-		"command": "clear && nim compile --verbosity:0 --hints:off --run"
-	},
-	{
-		"extension": "csproj",
-		"name": "C-Sharp Project",
-		"command": "clear && dotnet run --project"
-	},
-	{
-		"extension": "fsproj",
-		"name": "F-Sharp Project",
-		"command": "clear && dotnet run --project"
-	},
-	{
-		"extension": "kit",
-		"command": "clear && kitc --run"
-	},
-	{
-		"extension": "v",
-		"command": "clear && v run '$uri'"
-	},
-	{
-		"extension": "vsh",
-		"command": "clear && v run '$uri'"
-	},
-	{
-		"extension": "sass",
-		"name": "Sass",
-		"command": "clear && sass --style expanded '$uri'"
-	},
-	{
-		"extension": "cu",
-		"command": "clear && nvcc '$name' -o '$nameNoExt' && '$dir$nameNoExt'"
-	},
-	{
-		"extension": "ring",
-		"command": "clear && ring '$uri'"
-	},
-	{
-		"extension": "sml",
-		"command": "clear && sml '$uri'"
-	},
-	{
-		"extension": "js",
-		"name": "Javascipt",
-		"command": "clear && node '$name'",
-		"icon": "file file_type_javascript"
-	},
-	{
-		"extension": "py",
-		"name": "Python",
-		"command": "clear && python '$name'"
-	},
-	{
-		"extension": "cpp",
-		"name": "C++",
-		"command": "clear && g++ $workspace/$name -o $name && ./$name"
-	},
-	{
-		"extension": "java",
-		"name": "Java",
-		"command": "clear && javac '$uri' && java '$nameNoExt'"
-	},
-	{
-		"extension": "java",
-		"name": "Gradle Build",
-		"command": "clear && cd $workspace && gradle build"
-	},
-	{
-		"extension": "java",
-		"name": "Gradle assembleDebug",
-		"command": "clear && cd $workspace && gradle assembleDebug"
-	},
-	{
-		"extension": "java",
-		"name": "Gradle Build Sync",
-		"command": "clear && cd $workspace && gradle build --refresh-dependencies"
-	},
-	{
-		"extension": "java",
-		"name": "Gradle Sync",
-		"command": "clear && cd $workspace && gradle --refresh-dependencies"
-	},
-	{
-		"extension": "gradle",
-		"name": "Gradle Build",
-		"command": "clear && cd $workspace && gradle build"
-	},
-	{
-		"extension": "gradle",
-		"name": "Gradle assembleDebug",
-		"command": "clear && cd $workspace && gradle assembleDebug"
-	},
-	{
-		"extension": "gradle",
-		"name": "Gradle Build Sync",
-		"command": "clear && cd $workspace && gradle build --refresh-dependencies"
-	},
-		{
-		"extension": "gradle",
-		"name": "Gradle Sync",
-		"command": "clear && cd $workspace && gradle --refresh-dependencies"
-	},
-	{
-		"extension": "kt",
-		"name": "Gradle Sync",
-		"command": "clear && cd $workspace && gradle build --refresh-dependencies"
-	},
-		{
-		"extension": "kt",
-		"name": "Gradle Sync",
-		"command": "clear && cd $workspace && gradle --refresh-dependencies"
-	},
-	{
-		"extension": "kt",
-		"name": "Gradle assembleDebug",
-		"command": "clear && cd $workspace && gradle assembleDebug"
-	},
-	{
-		"extension": "sh",
-		"name": "Bash",
-		"command": "clear && bash '$uri'"
-	},
-	{
-		"extension": "c",
-		"name": "C",
-		"command": "clear && gcc '$uri' -o '$nameNoExt' && ./'$nameNoExt'"
-	},
-	{
-		"extension": "cs",
-		"name": "C-Sharp",
-		"command": "clear && csc '$uri' && '$nameNoExt'"
-	},
-	{
-		"extension": "php",
-		"name": "PHP",
-		"command": "clear && php '$uri'"
-	},
-	{
-		"extension": "rb",
-		"name": "Ruby",
-		"command": "clear && ruby '$uri'"
-	},
-	{
-		"extension": "swift",
-		"name": "Swift",
-		"command": "clear && swift '$uri'"
-	},
-	{
-		"extension": "go",
-		"name": "Go Lang",
-		"command": "clear && go run '$uri'"
-	},
-	{
-		"extension": "pl",
-		"name": "Perl",
-		"command": "clear && perl '$uri'"
-	},
-	{
-		"extension": "r",
-		"name": "R Script",
-		"command": "clear && Rscript '$uri'"
-	},
-	{
-		"extension": "lua",
-		"name": "Lua",
-		"command": "clear && lua '$uri'"
-	},
-	{
-		"extension": "scala",
-		"name": "Scala",
-		"command": "clear && scala '$uri'"
-	},
-	{
-		"extension": "kt",
-		"name": "Kotlin",
-		"command": "clear && kotlinc '$uri' -include-runtime -d '$nameNoExt'.jar && java -jar '$nameNoExt'.jar"
-	},
-	{
-		"extension": "vb",
-		"name": "Visual Basics (EXE)",
-		"command": "clear && vbnc '$uri' && mono '$nameNoExt.exe'"
-	},
-	{
-		"extension": "hs",
-		"command": "clear && ghc '$uri' -o '$nameNoExt' && ./'$nameNoExt'"
-	},
-	{
-		"extension": "rs",
-		"name": "Rust",
-		"command": "clear && rustc '$uri' && ./'$nameNoExt'"
-	},
-	{
-		"extension": "ex",
-		"name": "Elixir",
-		"command": "clear && elixirc '$uri'"
-	},
-	{
-		"extension": "erl",
-		"name": "E Script",
-		"command": "clear && escript '$uri'"
-	},
-	{
-		"extension": "clj",
-		"name": "Clojure",
-		"command": "clear && clojure '$uri'"
-	},
-	{
-		"extension": "lisp",
-		"name": "Lisp",
-		"command": "clear && sbcl --script '$uri'"
-	},
-	{
-		"extension": "m",
-		"name": "Gcc",
-		"command": "clear && gcc -framework Foundation '$uri' -o '$nameNoExt' && ./'$nameNoExt'"
-	},
-	{
-		"extension": "d",
-		"command": "clear && dmd '$uri' && ./'$nameNoExt'"
-	},
-	{
-		"extension": "groovy",
-		"name": "Groovy",
-		"command": "clear && groovy '$uri'"
-	},
-	{
-		"extension": "kts",
-		"name": "K Script",
-		"command": "clear && kscript '$uri'"
-	},
-	{
-		"extension": "sql",
-		"name": "SQL (MySql)",
-		"command": "clear && mysql -u username -p < '$uri'"
-	},
-	{
-		"extension": "swift",
-		"name": "Swift",
-		"command": "clear && swift '$uri'"
-	},
-	{
-		"extension": "matlab",
-		"name": "Matlab",
-		"command": "clear && matlab -nodisplay -nosplash -r 'run('$uri');exit;'"
-	},
-	{
-		"extension": "hs",
-		"command": "clear && ghc '$uri' -o '$nameNoExt' && ./'$nameNoExt'"
-	},
-	{}
+    {
+        "extension": "mjs",
+        "name": "Node Module",
+        "command": "clear && node '$uri'"
+    },
+    {
+        "extension": "vb",
+        "name": "Visual Basic",
+        "command": "clear && vbc /nologo '$name' && '$dir$nameNoExt'"
+    },
+    {
+        "extension": "vbs",
+        "name": "Visual Basics",
+        "command": "clear && cscript '$uri'"
+    },
+    {
+        "extension": "scala",
+        "name": "Scala",
+        "command": "clear && scala '$uri'"
+    },
+    {
+        "extension": "jl",
+        "name": "Julia",
+        "command": "clear && julia '$uri'"
+    },
+    {
+        "extension": "cr",
+        "name": "Crystal",
+        "command": "clear && crystal '$uri'"
+    },
+    {
+        "extension": "ml",
+        "command": "clear && ocaml '$uri'"
+    },
+    {
+        "extension": "exs",
+        "name": "Elixir",
+        "command": "clear && elixir '$uri'"
+    },
+    {
+        "extension": "hx",
+        "command": "clear && haxe --cwd '$dirNoSlash' --run '$nameNoExt'"
+    },
+    {
+        "extension": "rkt",
+        "command": "clear && racket '$uri'"
+    },
+    {
+        "extension": "scm",
+        "command": "clear && csi -script '$uri'"
+    },
+    {
+        "extension": "ahk",
+        "command": "clear && autohotkey '$uri'"
+    },
+    {
+        "extension": "au3",
+        "command": "clear && autoit3 '$uri'"
+    },
+    {
+        "extension": "ipy",
+        "name": "Ipython",
+        "command": "clear && ipython '$uri'"
+    },
+    {
+        "extension": "kts",
+        "name": "Kotlin",
+        "command": "clear && kotlinc -script '$uri'"
+    },
+    {
+        "extension": "kt",
+        "name": "Gradle Run",
+        "command": "clear && cd $workspace && gradle run"
+    },
+    {
+        "extension": "kt",
+        "name": "Gradle Build",
+        "command": "clear && cd $workspace && gradle build"
+    },
+    {
+        "extension": "dart",
+        "name": "Dart",
+        "command": "clear && dart '$uri'"
+    },
+    {
+        "extension": "pas",
+        "command": "clear && fpc '$name' && '$dir$nameNoExt'"
+    },
+    {
+        "extension": "pp",
+        "command": "clear && fpc '$name' && '$dir$nameNoExt'"
+    },
+    {
+        "extension": "d",
+        "command": "clear && dmd '$name' && '$dir$nameNoExt'"
+    },
+    {
+        "extension": "hs",
+        "name": "Haskell",
+        "command": "clear && runhaskell '$uri'"
+    },
+    {
+        "extension": "nim",
+        "name": "Nim",
+        "command": "clear && nim compile --verbosity:0 --hints:off --run"
+    },
+    {
+        "extension": "csproj",
+        "name": "C-Sharp Project",
+        "command": "clear && dotnet run --project"
+    },
+    {
+        "extension": "fsproj",
+        "name": "F-Sharp Project",
+        "command": "clear && dotnet run --project"
+    },
+    {
+        "extension": "kit",
+        "command": "clear && kitc --run"
+    },
+    {
+        "extension": "v",
+        "command": "clear && v run '$uri'"
+    },
+    {
+        "extension": "vsh",
+        "command": "clear && v run '$uri'"
+    },
+    {
+        "extension": "sass",
+        "name": "Sass",
+        "command": "clear && sass --style expanded '$uri'"
+    },
+    {
+        "extension": "cu",
+        "command": "clear && nvcc '$name' -o '$nameNoExt' && '$dir$nameNoExt'"
+    },
+    {
+        "extension": "ring",
+        "command": "clear && ring '$uri'"
+    },
+    {
+        "extension": "sml",
+        "command": "clear && sml '$uri'"
+    },
+    {
+        "extension": "js",
+        "name": "Javascipt",
+        "command": "clear && node '$name'",
+        "icon": "file file_type_javascript"
+    },
+    {
+        "extension": "py",
+        "name": "Python",
+        "command": "clear && python '$name'"
+    },
+    {
+        "extension": "cpp",
+        "name": "C++",
+        "command": "clear && g++ $uri -o $dir/$nameNoExt && $dir/$nameNoExt"
+    },
+    {
+        "extension": "java",
+        "name": "Java",
+        "command": "clear && javac '$uri' && java '$nameNoExt'"
+    },
+    {
+        "extension": "java",
+        "name": "Gradle Build",
+        "command": "clear && cd $workspace && gradle build"
+    },
+    {
+        "extension": "java",
+        "name": "Gradle assembleDebug",
+        "command": "clear && cd $workspace && gradle assembleDebug"
+    },
+    {
+        "extension": "java",
+        "name": "Gradle Build Sync",
+        "command": "clear && cd $workspace && gradle build --refresh-dependencies"
+    },
+    {
+        "extension": "java",
+        "name": "Gradle Sync",
+        "command": "clear && cd $workspace && gradle --refresh-dependencies"
+    },
+    {
+        "extension": "gradle",
+        "name": "Gradle Build",
+        "command": "clear && cd $workspace && gradle build"
+    },
+    {
+        "extension": "gradle",
+        "name": "Gradle assembleDebug",
+        "command": "clear && cd $workspace && gradle assembleDebug"
+    },
+    {
+        "extension": "gradle",
+        "name": "Gradle Build Sync",
+        "command": "clear && cd $workspace && gradle build --refresh-dependencies"
+    },
+    {
+        "extension": "gradle",
+        "name": "Gradle Sync",
+        "command": "clear && cd $workspace && gradle --refresh-dependencies"
+    },
+    {
+        "extension": "kt",
+        "name": "Gradle Sync",
+        "command": "clear && cd $workspace && gradle build --refresh-dependencies"
+    },
+    {
+        "extension": "kt",
+        "name": "Gradle Sync",
+        "command": "clear && cd $workspace && gradle --refresh-dependencies"
+    },
+    {
+        "extension": "kt",
+        "name": "Gradle assembleDebug",
+        "command": "clear && cd $workspace && gradle assembleDebug"
+    },
+    {
+        "extension": "sh",
+        "name": "Bash",
+        "command": "clear && bash '$uri'"
+    },
+    {
+        "extension": "c",
+        "name": "C",
+        "command": "clear && gcc '$uri' -o '$nameNoExt' && ./'$nameNoExt'"
+    },
+    {
+        "extension": "cs",
+        "name": "C-Sharp",
+        "command": "clear && csc '$uri' && '$nameNoExt'"
+    },
+    {
+        "extension": "php",
+        "name": "PHP",
+        "command": "clear && php '$uri'"
+    },
+    {
+        "extension": "rb",
+        "name": "Ruby",
+        "command": "clear && ruby '$uri'"
+    },
+    {
+        "extension": "swift",
+        "name": "Swift",
+        "command": "clear && swift '$uri'"
+    },
+    {
+        "extension": "go",
+        "name": "Go Lang",
+        "command": "clear && go run '$uri'"
+    },
+    {
+        "extension": "pl",
+        "name": "Perl",
+        "command": "clear && perl '$uri'"
+    },
+    {
+        "extension": "r",
+        "name": "R Script",
+        "command": "clear && Rscript '$uri'"
+    },
+    {
+        "extension": "lua",
+        "name": "Lua",
+        "command": "clear && lua '$uri'"
+    },
+    {
+        "extension": "scala",
+        "name": "Scala",
+        "command": "clear && scala '$uri'"
+    },
+    {
+        "extension": "kt",
+        "name": "Kotlin",
+        "command": "clear && kotlinc '$uri' -include-runtime -d '$nameNoExt'.jar && java -jar '$nameNoExt'.jar"
+    },
+    {
+        "extension": "vb",
+        "name": "Visual Basics (EXE)",
+        "command": "clear && vbnc '$uri' && mono '$nameNoExt.exe'"
+    },
+    {
+        "extension": "hs",
+        "command": "clear && ghc '$uri' -o '$nameNoExt' && ./'$nameNoExt'"
+    },
+    {
+        "extension": "rs",
+        "name": "Rust",
+        "command": "clear && rustc '$uri' && ./'$nameNoExt'"
+    },
+    {
+        "extension": "ex",
+        "name": "Elixir",
+        "command": "clear && elixirc '$uri'"
+    },
+    {
+        "extension": "erl",
+        "name": "E Script",
+        "command": "clear && escript '$uri'"
+    },
+    {
+        "extension": "clj",
+        "name": "Clojure",
+        "command": "clear && clojure '$uri'"
+    },
+    {
+        "extension": "lisp",
+        "name": "Lisp",
+        "command": "clear && sbcl --script '$uri'"
+    },
+    {
+        "extension": "m",
+        "name": "Gcc",
+        "command": "clear && gcc -framework Foundation '$uri' -o '$nameNoExt' && ./'$nameNoExt'"
+    },
+    {
+        "extension": "d",
+        "command": "clear && dmd '$uri' && ./'$nameNoExt'"
+    },
+    {
+        "extension": "groovy",
+        "name": "Groovy",
+        "command": "clear && groovy '$uri'"
+    },
+    {
+        "extension": "kts",
+        "name": "K Script",
+        "command": "clear && kscript '$uri'"
+    },
+    {
+        "extension": "sql",
+        "name": "SQL (MySql)",
+        "command": "clear && mysql -u username -p < '$uri'"
+    },
+    {
+        "extension": "swift",
+        "name": "Swift",
+        "command": "clear && swift '$uri'"
+    },
+    {
+        "extension": "matlab",
+        "name": "Matlab",
+        "command": "clear && matlab -nodisplay -nosplash -r 'run('$uri');exit;'"
+    },
+    {
+        "extension": "hs",
+        "command": "clear && ghc '$uri' -o '$nameNoExt' && ./'$nameNoExt'"
+    },
+    {}
 ]
+	
